@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Price Scanner - Landing Page
+
+This is a static landing page for the **Price Scanner** project, designed to showcase the features and benefits of the product.
+
+## Deployment
+
+This project is built with **Next.js** and styled using **Tailwind CSS**. It will be deployed on **Vercel** after pushing the code to GitHub.
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the Repository
+First, clone the repository from GitHub:
+
+```bash
+git clone https://github.com/yourusername/price-scanner.git
+cd price-scanner
+```
+
+### 2. Install Dependencies
+Make sure you have **Node.js** installed, then install the required dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run the Development Server
+Start the development server to preview changes locally:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the website in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 4. Build for Production
+To generate a production-ready build:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## Deployment on Vercel
 
-To learn more about Next.js, take a look at the following resources:
+To deploy this project on **Vercel**, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Push the code to GitHub:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+git add .
+git commit -m "Initial commit"
+git push origin main
+```
 
-## Deploy on Vercel
+2. Go to [Vercel](https://vercel.com/), log in, and import your GitHub repository.
+3. Follow the deployment setup, and Vercel will handle the rest!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js** - React framework for server-side rendering and static site generation
+- **Tailwind CSS** - Utility-first CSS framework for styling
+- **Appwrite (if used)** - Backend services
+- **Vercel** - Hosting and deployment
+
+## License
+
+This project is for a client and is not intended for public use. Please contact the project owner for permissions.
+
+---
+
+_Developed by Mazher Hussain_

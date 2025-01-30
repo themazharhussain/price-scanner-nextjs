@@ -1,0 +1,13 @@
+import ScrollProgressBar from "./ScrollProgressBar";
+import Header from "./Header/Header";
+import Button from "./CustomButton/Button";
+import HeroSection from "./HeroSection";
+import Slides from "./Slides";
+import WhyChoose from "./WhyChoose";
+import CardList from "./FeaturedCard/CardList";
+import HowWork from "./HowWork";
+import Testimonial from "./Testimonial";
+import ComparePrices from "./ComparePrices";
+import FAQS from "./FAQS";
+import Footer from "./Footer/Footer";
+export { ScrollProgressBar,Header,Button, HeroSection, Slides, WhyChoose, CardList, HowWork, Testimonial, ComparePrices, FAQS, Footer };
