@@ -4,7 +4,7 @@ import Link from "next/link";
 import Button from "../CustomButton/Button";
 
 const navItems = [
-  { name: "Home", href: "#" },
+  { name: "Home", href: "#home" },
   { name: "Features", href: "#features" },
   { name: "How It Works", href: "#how-work" },
   { name: "Testimonials", href: "#testimonials" },
@@ -23,7 +23,7 @@ const Header = () => {
             alt="logo"
             width={60}
             height={60}
-            className="object-contain"
+            priority
           />
         </Link>
         <span className="text-3xl sm:text-4xl font-bold text-gray-800 whitespace-nowrap">
