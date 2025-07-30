@@ -17,7 +17,7 @@ export default function Home() {
       id="home"
       className="relative bg-white flex justify-center items-center flex-col overflow-hidden"
     >
-      <div className="max-w-7xl w-full">
+      <div className="w-full">
         <Header />
         <main>
           <HeroSection />
